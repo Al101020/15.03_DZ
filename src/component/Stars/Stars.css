@@ -9,3 +9,11 @@
 /* p.stars {
   margin: 0;
 } */
+
+.card-body-stars {
+  background-color: white;
+  padding: 1px;
+}
+.u-clearfix {
+  padding: 1px;
+}
