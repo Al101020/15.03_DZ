@@ -1,0 +1,102 @@
+.Task-1 {
+  background-color: rgb(163, 252, 122);
+}
+
+.title-1 {
+    margin: 10px 0;
+}
+
+.filters {
+  width: 400px;
+  height: 40px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.all {
+  width: 40px;
+  height: 15px;
+  border: 1px solid black;
+  background-color: white;
+
+  padding: 5px;
+  margin: 5px 2px;
+
+  cursor: pointer;
+}
+
+.websites {
+  width: 70px;
+  height: 15px;
+  border: 1px solid black;
+  background-color: white;
+
+  padding: 5px;
+  margin: 5px 2px;
+
+  cursor: pointer;
+}
+
+.flayers {
+  width: 60px;
+  height: 15px;
+  border: 1px solid black;
+  background-color: white;
+
+  padding: 5px;
+  margin: 5px 2px;
+
+  cursor: pointer;
+}
+
+.business-cards {
+  width: 100px;
+  height: 15px;
+  border: 1px solid black;
+  background-color: white;
+
+  padding: 5px;
+  margin: 5px 2px;
+
+  cursor: pointer;
+}
+
+.all:hover {
+  background: rgb(105, 29, 29);
+  color: wheat;
+}
+
+.websites:hover {
+  background: rgb(105, 29, 29);
+  color: wheat;
+}
+
+.flayers:hover {
+  background: rgb(105, 29, 29);
+  color: wheat;
+}
+
+.business-cards:hover {
+  background: rgb(105, 29, 29);
+  color: wheat;
+}
+
+
+.black-wheat {
+  background: black;
+  color: wheat;
+}
+
+
+.filters {
+  margin: 3px auto;
+}
+
+.filteredList {
+  display: inline;
+}
+
+.image {
+  margin: 2px 3px;
+  width: 200px;
+}
