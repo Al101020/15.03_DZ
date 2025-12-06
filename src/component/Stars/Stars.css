@@ -2,18 +2,14 @@
   background-color: white;
 }
 
-/* .stars {
-  margin: 0;
-} */
-
-/* p.stars {
-  margin: 0;
-} */
-
 .card-body-stars {
   background-color: white;
-  padding: 1px;
+  margin: 0;
 }
 .u-clearfix {
   padding: 1px;
+}
+
+.liStar {
+  list-style-type: none;
 }
