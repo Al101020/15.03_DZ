@@ -1,16 +1,20 @@
 // import { useState } from 'react';
 import './ListOffers.css';
-// import projects from './projects.js';
-// import Toolbar from './Toolbar.jsx';
-// import ProjectList from './ProjectList.jsx';
+import './css/main.css';
+
+import Listing from './Listing.tsx';
+
+import json from "./data/etsy.json";
 
 function ListOffers() {
   // const [state, setState] = useState(0);
 
+  const offers = JSON.parse(JSON.stringify(json));
+
   return (
     <>
       <div className='listOffers'>
-        <div>Решение</div>
+        <Listing items={offers}/>
       </div>
     </>
   );
