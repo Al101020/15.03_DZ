@@ -1,11 +1,12 @@
 .listOffers {
-  background-color: white;
+  background-color: rgb(197, 197, 197);
 }
 
-/* .listOffers {
-  margin: 0;
+.item {
+  max-width: 200px;
+  margin: 15px;
 }
 
-p.listOffers {
+/* p.listOffers {
   margin: 0;
 } */

@@ -23,8 +23,6 @@ function Listing({items} : props) {
 
   return (
     <>
-      <div>Решение!</div>
-      {/* {items.map(item => <Offer key={uniqid()} item = {item}/>)} */}
       {items.map(item => <Offer key={item.listing_id} item = {item}/>)}
     </>
   );
